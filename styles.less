@@ -1,0 +1,49 @@
+//Variables
+@width: 320px;
+@blue: blue;
+@slider-size:150px;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.task-header{
+    margin: 25px 25px;
+}
+
+.tasks{
+    margin: 25px;
+    list-style-type: none;
+}
+
+.box {
+    border: 2px solid;
+    border-color: @blue;
+};
+
+.slider-horizontal{
+    height: @width / 2;
+    width: @width;
+    .box();
+    display: block;
+    overflow-x: scroll;
+    margin-left: 25px;
+}
+
+.slider-container{
+    display: block;
+    white-space: nowrap;
+    padding: 0;
+}
+
+.slide{
+    display: inline-block;
+    margin: 5px;
+    width: @slider-size;
+    height: @slider-size;
+}
+
+
+
+

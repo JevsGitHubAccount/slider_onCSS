@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.task-header {
+  margin: 25px 25px;
+}
+.tasks {
+  margin: 25px;
+  list-style-type: none;
+}
+.box {
+  border: 2px solid;
+  border-color: blue;
+}
+.slider-horizontal {
+  height: 160px;
+  width: 320px;
+  border: 2px solid;
+  border-color: blue;
+  display: block;
+  overflow-x: scroll;
+  margin-left: 25px;
+}
+.slider-container {
+  display: block;
+  white-space: nowrap;
+  padding: 0;
+}
+.slide {
+  display: inline-block;
+  margin: 5px;
+  width: 150px;
+  height: 150px;
+}
